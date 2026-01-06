@@ -3,10 +3,10 @@ name:  Terraform GCP
 on:
  push:
   branches: 
-   -main
+   - main
  pull_request:
   branches:
-   -main
+   - main
 
 permissions:
    contents: read
