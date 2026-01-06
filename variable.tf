@@ -14,7 +14,10 @@ variable "vm_name" {
   type = string
   default = "demo-vm"
 }
-
+variable "machine_type" {
+  type = string
+  default = "e2.micro"
+}
 variable "network_name" {
   type = string
   default = "demo-vpc"
