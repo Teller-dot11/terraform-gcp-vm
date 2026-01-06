@@ -3,7 +3,7 @@ resource "google_compute_network" "vpc" {
   auto_create_subnetworks = false
  }
 
-resource "google_compute_subnetwork" "this" {
+resource "google_compute_subnetwork" "subnet" {
   name = "${var.vpc_network}-subnet"
   region = var.region
   network = google_compute_network.vpc.id
