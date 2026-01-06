@@ -5,15 +5,14 @@ provider "google" {
 
 module "vpc" {
  source = "./module/vpc"
- project_id = var.project_id
+ network_name = var.network_name
  region = var.region
  }
 
 module "vm" {
  source = "./module/vm"
- project_id = var.project_id
  zone = var.zone
  vm_name = var.vm_name
- subnet_id = module.vpc.subnet_id
+ network_id = module.vpc.network_id
  }
  
