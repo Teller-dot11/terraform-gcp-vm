@@ -1,5 +1,5 @@
 resource "google_compute_network" "vpc" {
-  name = "demo-vpc"
+  name = "var.vpc-name"
   auto_create_subnetworks = false
  }
 
