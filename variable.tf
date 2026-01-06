@@ -15,7 +15,7 @@ variable "vm_name" {
   default = "demo-vm"
 }
 
-variable "vpc_name" {
+variable "network_name" {
   type = string
   default = "demo-vpc"
 }
