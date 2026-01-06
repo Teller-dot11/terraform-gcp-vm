@@ -16,7 +16,7 @@ variable "vm_config" {
  })
 }
 */
-variable "vpc_name" {
+variable "vpc_network" {
   type = string
   default = "demo-vpc"
 }
