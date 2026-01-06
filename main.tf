@@ -1,6 +1,6 @@
 module "vpc" {
  source = "./modules/vpc"
- network_name = var.vpc_network
+ vpc_network = var.vpc_network
  region = var.region
  }
 
