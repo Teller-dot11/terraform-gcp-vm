@@ -1,4 +1,4 @@
-resource "google_compute_instance" "this" {
+resource "google_compute_instance" "vm" {
  name = var.vm_name
  machine_type = "e2.medium"
  zone = var.zone
