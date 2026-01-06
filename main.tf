@@ -12,6 +12,7 @@ module "vpc" {
 module "vm" {
  source = "./module/vm"
  zone = var.zone
+ machine_type = var.machine_type
  vm_name = var.vm_name
  network_id = module.vpc.network_id
  }
