@@ -3,14 +3,14 @@ resource "google_compute_instance" "vm" {
  machine_type = var.machine_type
  zone = var.zone
 
-boot_disk {
- initialize_params {
-  image = "debians-cloud/debian-11"
+ boot_disk {
+  initialize_params {
+   image = "debians-cloud/debian-11"
+   }
   }
-}
-
-network_interface {
- subnetwork= var.subnet_id
- access_config {}
- }
+  
+ network_interface {
+  subnetwork= var.subnet_id
+  access_config {}
+  }
 }
