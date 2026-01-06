@@ -1,4 +1,4 @@
-variable "network_name" {
+variable "vpc_network" {
   type = string
 }
 variable "region" {
