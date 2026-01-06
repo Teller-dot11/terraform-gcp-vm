@@ -1,4 +1,4 @@
-project_id = "assessment-1-483410"
+project_id = "assesment-1-483410"
 region = "us-central1"
 network_name = "demo-vpc"
 
