@@ -1,8 +1,9 @@
 project_id = "assessment-1-483410"
-region = "us-centeral1"
+region = "us-central1"
 network_name = "demo-vpc"
 
 vm_config = {
  name = "demo-vm"
  machine_type = "e2-micro"
  zone = "us-central1-a"
+}
