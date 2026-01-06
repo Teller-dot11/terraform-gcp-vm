@@ -1,4 +1,9 @@
-variable "project_id" {}
-variable "zone" {}
-variable "vm_name" {}
-variable "subnet_id" {}
+variable "vm_name" {
+  type = string
+}
+variable "zone" {
+  type = string
+}
+variable "network_id" {
+   type = string
+}
