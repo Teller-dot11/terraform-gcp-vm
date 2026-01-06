@@ -14,3 +14,8 @@ variable "vm_name" {
   type = string
   default = "demo-vm"
 }
+
+variable "vpc_name" {
+  type = string
+  default = "demo-vpc"
+}
