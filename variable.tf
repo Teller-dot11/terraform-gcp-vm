@@ -7,6 +7,10 @@ variable "region" {
   type = string
   default = "us-central1"
 }
+variable "machine_type" {
+  type = string
+  default = "e2-medium"
+}
 /*
 variable "vm_config" {
   type = object({
