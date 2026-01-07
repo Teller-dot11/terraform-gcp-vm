@@ -4,11 +4,11 @@ variable "vm_name" {
 variable "zone" {
   type = string
 }
-/*
+
 variable "machine_type" {
    type = string
 }
-*/
+
 variable "network_id" {
    type = string
 }
