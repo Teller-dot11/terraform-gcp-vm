@@ -1,6 +1,6 @@
 resource "google_compute_instance" "vm" {
  name = var.vm_name
- machine_type = "e2.medium"
+ machine_type = var.machine_type //"e2.medium"
  zone = var.zone
 
  boot_disk {
